@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/branlo-web2/static/css/main.05f0c305.chunk.css",
+    "main.js": "/branlo-web2/static/js/main.ce4df597.chunk.js",
+    "main.js.map": "/branlo-web2/static/js/main.ce4df597.chunk.js.map",
+    "runtime~main.js": "/branlo-web2/static/js/runtime~main.c3221645.js",
+    "runtime~main.js.map": "/branlo-web2/static/js/runtime~main.c3221645.js.map",
+    "static/js/2.624dd4e9.chunk.js": "/branlo-web2/static/js/2.624dd4e9.chunk.js",
+    "static/js/2.624dd4e9.chunk.js.map": "/branlo-web2/static/js/2.624dd4e9.chunk.js.map",
+    "index.html": "/branlo-web2/index.html",
+    "precache-manifest.2b8975fd3336a54d8b029239ceb0ce51.js": "/branlo-web2/precache-manifest.2b8975fd3336a54d8b029239ceb0ce51.js",
+    "service-worker.js": "/branlo-web2/service-worker.js",
+    "static/css/main.05f0c305.chunk.css.map": "/branlo-web2/static/css/main.05f0c305.chunk.css.map",
+    "static/media/Navegacion.css": "/branlo-web2/static/media/fondoBranlo.a73a65ab.jpg"
+  }
+}
