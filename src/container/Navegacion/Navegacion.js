@@ -14,7 +14,7 @@ export default class Navegacion extends Component {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
-                            <ul className="navbar-nav ml-auto pr-5 mr-5 negro">
+                            <ul className="navbar-nav ml-auto pr-3 negro">
                                 <li className="nav-item pr-5 mr-5">
                                     <Link to='/' className="Link"> Inicio </Link>
                                 </li>
