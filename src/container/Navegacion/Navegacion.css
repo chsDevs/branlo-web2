@@ -1,0 +1,41 @@
+header {
+    height: 100%;
+    background-image: url('../../img/fondoBranlo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centradoHeader{
+    text-align: center;
+}
+
+.wraperHeader{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.azul{
+    color: rgb(39,40,91);
+    font-size: 7rem;
+    font-family: 'humanst521_lt_btlight';
+}
+
+.corporativo{
+    color: rgb(39,40,91);
+    font-size: 2rem;
+
+}
+
+.leyenda{
+    font-size: 2rem;
+}
+
+ul>li>a{
+    color: black;
+    font-size: 1.8rem;
+}
+
+.Link{
+    font-size: 1.7rem;
+}

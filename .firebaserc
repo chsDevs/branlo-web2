@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "hosting-proyectos"
+  },
+  "targets": {
+    "hosting-proyectos": {
+      "hosting": {
+        "corporativo-branlo": [
+          "corporativo-branlo"
+        ]
+      }
+    }
+  }
+}
