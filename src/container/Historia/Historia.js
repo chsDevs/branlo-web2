@@ -32,7 +32,7 @@ export default class Historia extends Component {
                 <div className="row mt-5">
                     <div className="col-sm-12">
                         <div >
-                            <h1 align="center"><span className="lineaDebajo">VALORES</span></h1>
+                            <h1 align="center"><span className="lineaDebajo">VISION</span></h1>
                         </div>
                         <p align="justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, harum quam! Illum in, reiciendis obcaecati recusandae nostrum doloribus? Corrupti doloribus esse consectetur sint vitae, harum labore laboriosam temporibus omnis cupiditate.
@@ -44,7 +44,7 @@ export default class Historia extends Component {
                 <div className="row mt-5">
                     <div className="col-sm-12">
                         <div >
-                            <h1 align="center"><span className="lineaDebajo">VISION</span></h1>
+                            <h1 align="center"><span className="lineaDebajo">VALORES</span></h1>
                         </div>
                         <p align="justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, harum quam! Illum in, reiciendis obcaecati recusandae nostrum doloribus? Corrupti doloribus esse consectetur sint vitae, harum labore laboriosam temporibus omnis cupiditate.
