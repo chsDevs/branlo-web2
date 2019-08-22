@@ -2,16 +2,8 @@ import React, { Component } from 'react';
 
 export default class Contacto extends Component {
     
-    instagram = {
-        color: '#c2185b'
-    }
-
-    correo = {
-        color: '#ffca28'
-    }
-
-    telefono = {
-        color: '#b0bec5'
+    ColorInstitucional = {
+        color: 'rgb(39,40,91)'
     }
 
     render() {
@@ -22,16 +14,16 @@ export default class Contacto extends Component {
                         <h1>CONTACTANOS</h1>
                     </div>
                     <div className="col-sm-3">
-                        <i id="azulFb" className="fab fa-facebook-square fa-7x text-primary"></i>
+                        <i id="azulFb" className="fab fa-facebook-square fa-7x" style={this.ColorInstitucional}></i>
                     </div>
                     <div className="col-sm-3">
-                        <i className="fab fa-instagram fa-7x" style={this.instagram}></i>
+                        <i className="fab fa-instagram fa-7x" style={this.ColorInstitucional}></i>
                     </div>
                     <div className="col-sm-3">
-                        <i className="fa fa-envelope fa-7x" style={this.correo}></i>
+                        <i className="fa fa-envelope fa-7x" style={this.ColorInstitucional}></i>
                     </div>
                     <div className="col-sm-3">
-                    <i className="fas fa-mobile fa-7x" style={this.telefono}></i>
+                    <i className="fas fa-mobile-alt fa-7x" style={this.ColorInstitucional}></i>
                     </div>
                 </div>
                 <div className="row mb-5">
