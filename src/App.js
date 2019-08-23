@@ -5,6 +5,7 @@ import QuienesSomos from './container/QuienesSomos/QuienesSomos';
 import AcercaDeNosotros from './container/AcercaDeNosotros/AcercaDeNosotros';
 import Historia from './container/Historia/Historia';
 import Contacto from './container/Contacto/Contacto';
+import Footer from './container/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/AcercaDeNosotros" component={AcercaDeNosotros}/>
       <Route path="/Historia" component={Historia} />
       <Route path="/Contacto" component={Contacto} />
+      <Footer/>
     </Router>
   );
 }

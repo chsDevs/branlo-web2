@@ -8,7 +8,7 @@ export default class Navegacion extends Component {
         return (
             <div className="row">
                 <header className="col-sm-12 mb-5 pb-5">
-                    <nav className="transparent navbar navbar-expand-lg p-3 m-0 navbar-light">
+                    <nav className="transparent navbar navbar-expand-lg p-3 m-0 navbar-light sticky">
                         <img src={logo} alt="" />
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -23,6 +23,9 @@ export default class Navegacion extends Component {
                                 </li>
                                 <li className="nav-item pr-3 mr-3">
                                     <Link to='/Contacto' className="Link"> Contacto </Link>
+                                </li>
+                                <li className="nav-item pr-3 mr-3">
+                                    <Link to='/Testimoniales' className="Link"> Testimoniales </Link>
                                 </li>
                             </ul>
                         </div>
