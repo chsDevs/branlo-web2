@@ -27,10 +27,13 @@ export default class Navegacion extends Component {
                                 <li className="nav-item pr-3 mr-3">
                                     <Link to='/Testimoniales' className="Link"> Testimoniales </Link>
                                 </li>
+                                <li className="nav-item pr-3 mr-3">
+                                    <Link to='/Clientes' className="Link"> Clientes </Link>
+                                </li>
                             </ul>
                         </div>
                     </nav>
-                    <div className="centradoHeader mb-5 mt-5 pt-5">
+                    <div className="centradoHeader mb-5 mt-4 pt-4">
                         <div className="wraperHeader">
                             <h1 className="azul unico">BRANLO</h1>
                             <h3 className="corporativo">CORPORATIVO</h3>
