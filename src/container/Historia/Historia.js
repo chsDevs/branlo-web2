@@ -8,7 +8,7 @@ export default class Historia extends Component {
                 <div className="row mt-5">
                     <div className="col-sm-12">
                         <div >
-                            <h1 align="center"><span className="lineaDebajo">HISTORIA</span></h1>
+                            <h1 align="center"><span className="lineaDebajo Titulo">HISTORIA</span></h1>
                         </div>
                         <p align="justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, harum quam! Illum in, reiciendis obcaecati recusandae nostrum doloribus? Corrupti doloribus esse consectetur sint vitae, harum labore laboriosam temporibus omnis cupiditate.
@@ -20,7 +20,7 @@ export default class Historia extends Component {
                 <div className="row mt-5">
                     <div className="col-sm-12">
                         <div >
-                            <h1 align="center"><span className="lineaDebajo">MISION</span></h1>
+                            <h1 align="center"><span className="lineaDebajo Titulo">MISION</span></h1>
                         </div>
                         <p align="justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, harum quam! Illum in, reiciendis obcaecati recusandae nostrum doloribus? Corrupti doloribus esse consectetur sint vitae, harum labore laboriosam temporibus omnis cupiditate.
@@ -32,7 +32,7 @@ export default class Historia extends Component {
                 <div className="row mt-5">
                     <div className="col-sm-12">
                         <div >
-                            <h1 align="center"><span className="lineaDebajo">VISION</span></h1>
+                            <h1 align="center"><span className="lineaDebajo Titulo">VISION</span></h1>
                         </div>
                         <p align="justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, harum quam! Illum in, reiciendis obcaecati recusandae nostrum doloribus? Corrupti doloribus esse consectetur sint vitae, harum labore laboriosam temporibus omnis cupiditate.
@@ -44,7 +44,7 @@ export default class Historia extends Component {
                 <div className="row mt-5">
                     <div className="col-sm-12">
                         <div >
-                            <h1 align="center"><span className="lineaDebajo">VALORES</span></h1>
+                            <h1 align="center"><span className="lineaDebajo Titulo">VALORES</span></h1>
                         </div>
                         <p align="justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, harum quam! Illum in, reiciendis obcaecati recusandae nostrum doloribus? Corrupti doloribus esse consectetur sint vitae, harum labore laboriosam temporibus omnis cupiditate.
@@ -56,7 +56,7 @@ export default class Historia extends Component {
                 <div className="row mt-5">
                     <div className="col-sm-12">
                         <div >
-                            <h1 align="center"><span className="lineaDebajo">EQUIPO BRANLO</span></h1>
+                            <h1 align="center"><span className="lineaDebajo Titulo">EQUIPO BRANLO</span></h1>
                         </div> 
                     </div>
                     <div className="col-sm-12 mt-5" align="center">

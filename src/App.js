@@ -9,8 +9,8 @@ import QuienesSomos from './container/QuienesSomos/QuienesSomos';
 import AcercaDeNosotros from './container/AcercaDeNosotros/AcercaDeNosotros';
 import Historia from './container/Historia/Historia';
 import Contacto from './container/Contacto/Contacto';
-import Clientes from './components/Clientes/Clientes';
-
+import Socios from './components/Socios/Socios';
+import Testimoniales from './components/Testimoniales/Testimoniales';
 
 function App() {
   return (
@@ -20,7 +20,8 @@ function App() {
       <Route path="/AcercaDeNosotros" component={AcercaDeNosotros}/>
       <Route path="/Historia" component={Historia} />
       <Route path="/Contacto" component={Contacto} />
-      <Route path="/Clientes" component={Clientes} />
+      <Route path="/Testimoniales" component={Testimoniales} />
+      <Route path="/Socios" component={Socios} />
       <Footer/>
     </Router>
   );
