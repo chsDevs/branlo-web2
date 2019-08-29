@@ -4,7 +4,7 @@ import './Navegacion.css';
 import logo from '../../img/logo-branlo.png';
 
 export default class Navegacion extends Component {
-    render() {
+    render() { 
         return (
             <div className="row overflow-auto">
                 <header className="col-sm-12 mb-5 pb-5 container">
@@ -26,16 +26,16 @@ export default class Navegacion extends Component {
                                 </li> */}
                                 
                                 <li className="nav-item pr-2 pl-3 mr-2 mt-2">
-                                    <Link to='#' className="Link"> Amortizaciones </Link>
+                                    <Link to='#' className="Link" data-toggle="collapse" data-target=".navbar-collapse"> Amortizaciones </Link>
                                 </li>
                                 <li className="nav-item pr-2 pl-3 mr-2 mt-2">
-                                    <Link to='/Socios' className="Link"> Socios-Comerciales </Link>
+                                    <Link to='/Socios' className="Link" data-toggle="collapse" data-target=".navbar-collapse"> Socios-Comerciales </Link>
                                 </li>
                                 <li className="nav-item pr-2 pl-3 mr-2 mt-2">
-                                    <Link to='#' className="Link"> Testimoniales </Link>
+                                    <Link to='#' className="Link" data-toggle="collapse" data-target=".navbar-collapse"> Testimoniales </Link>
                                 </li>
                                 <li className="nav-item pr-2 pl-3 mr-2 mt-2">
-                                    <Link to='/Testimoniales' className="Link"> Galeria </Link>
+                                    <Link to='/Testimoniales' className="Link" data-toggle="collapse" data-target=".navbar-collapse"> Galeria </Link>
                                 </li>
                                 {/* <li className="nav-item pr-2 mr-2">
                                     <Link to='#' className="Link"> Regulaciones </Link>
@@ -50,15 +50,17 @@ export default class Navegacion extends Component {
                                     </div>
                                 </div> */}
                                 <div className="dropdown pr-2 mr-2">
-                                    <button className="btn nav-item dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button className="btn nav-item dropdown-toggle" type="button" 
+                                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" 
+                                            aria-expanded="false">
                                         <span className="dropMenu mt-0 pt-0">Conocenos</span>
                                     </button>
                                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <Link to='/Contacto' className="dropdown-item"> Contacto </Link>
+                                        <Link to='/Contacto' className="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse" > Contacto </Link>
                                         <div className="dropdown-divider"></div>
-                                        <Link to='#' className="dropdown-item"> Regulaciones </Link>
+                                        <Link to='#' className="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse"> Regulaciones </Link>
                                         <div className="dropdown-divider"></div>
-                                        <Link to='/Historia' className="dropdown-item"> Acerca De Nosotros </Link>
+                                        <Link to='/Historia' className="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse"> Acerca De Nosotros </Link>
                                     </div>
                                 </div>
                             </ul>

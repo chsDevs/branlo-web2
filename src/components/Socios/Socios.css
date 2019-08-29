@@ -1,3 +1,9 @@
 .clientes{
     font-size: 4rem;
 }
+
+@media (max-width: 600px){
+    .clientes {
+        font-size: 3.5rem;
+    }
+}

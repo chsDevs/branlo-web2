@@ -1,5 +1,5 @@
 iframe{
-    border:0
+    
 }
 .fa-instagram{
     color: rgb(226, 43, 186);
@@ -9,6 +9,12 @@ iframe{
     background-color: rgb(226, 43, 186);
 }
 
-.Titulo{
+.titulo{
     font-size: 4rem;
+}
+
+@media (max-width: 600px){
+    .titulo {
+        font-size: 2.8rem;
+    }
 }
