@@ -9,7 +9,7 @@ export default class Navegacion extends Component {
             <div className="row overflow-auto">
                 <header className="col-sm-12 mb-5 pb-5 container">
                     <nav className="transparent navbar navbar-expand-lg p-3 m-0 navbar-light sticky">
-                        <img src={logo} alt="" />
+                        <img src={logo} alt="Corporativo Branlo" />
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -26,16 +26,24 @@ export default class Navegacion extends Component {
                                 </li> */}
                                 
                                 <li className="nav-item pr-2 pl-3 mr-2 mt-2">
-                                    <Link to='#' className="Link" data-toggle="collapse" data-target=".navbar-collapse"> Amortizaciones </Link>
+                                    <div data-toggle="collapse" data-target=".navbar-collapse">
+                                        <Link to='#' className="Link"> Amortizaciones </Link>
+                                    </div>
                                 </li>
                                 <li className="nav-item pr-2 pl-3 mr-2 mt-2">
-                                    <Link to='/Socios' className="Link" data-toggle="collapse" data-target=".navbar-collapse"> Socios-Comerciales </Link>
+                                    <div data-toggle="collapse" data-target=".navbar-collapse">
+                                        <Link to='/Socios' className="Link"> Socios-Comerciales </Link>
+                                    </div>
                                 </li>
                                 <li className="nav-item pr-2 pl-3 mr-2 mt-2">
-                                    <Link to='#' className="Link" data-toggle="collapse" data-target=".navbar-collapse"> Testimoniales </Link>
+                                    <div data-toggle="collapse" data-target=".navbar-collapse">
+                                        <Link to='#' className="Link"> Testimoniales </Link>
+                                    </div>
                                 </li>
                                 <li className="nav-item pr-2 pl-3 mr-2 mt-2">
-                                    <Link to='/Testimoniales' className="Link" data-toggle="collapse" data-target=".navbar-collapse"> Galeria </Link>
+                                    <div data-toggle="collapse" data-target=".navbar-collapse">
+                                        <Link to='/Testimoniales' className="Link" > Galeria </Link>
+                                    </div>
                                 </li>
                                 {/* <li className="nav-item pr-2 mr-2">
                                     <Link to='#' className="Link"> Regulaciones </Link>
@@ -56,11 +64,17 @@ export default class Navegacion extends Component {
                                         <span className="dropMenu mt-0 pt-0">Conocenos</span>
                                     </button>
                                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <Link to='/Contacto' className="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse" > Contacto </Link>
+                                        <div data-toggle="collapse" data-target=".navbar-collapse">
+                                            <Link to='/Contacto' className="dropdown-item"> Contacto </Link>
+                                        </div>
                                         <div className="dropdown-divider"></div>
-                                        <Link to='#' className="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse"> Regulaciones </Link>
+                                            <div data-toggle="collapse" data-target=".navbar-collapse">
+                                                <Link to='#' className="dropdown-item"> Regulaciones </Link>
+                                            </div>
                                         <div className="dropdown-divider"></div>
-                                        <Link to='/Historia' className="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse"> Acerca De Nosotros </Link>
+                                            <div data-toggle="collapse" data-target=".navbar-collapse">
+                                                <Link to='/Historia' className="dropdown-item"> Acerca De Nosotros </Link>
+                                            </div>
                                     </div>
                                 </div>
                             </ul>

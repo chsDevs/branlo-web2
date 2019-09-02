@@ -41,7 +41,7 @@ header {
     font-size: 2rem;
 }
 
-ul>li>a{
+ul>li>div>a{
     color: black;
     font-size: 1.8rem;
 }
